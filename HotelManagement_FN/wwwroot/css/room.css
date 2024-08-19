@@ -1,0 +1,25 @@
+﻿.room_body{
+    display: flex;
+    justify-content:space-between
+}
+
+.imgroom{
+    width:15vw;
+    height:25vh
+
+}
+
+.phong{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: auto
+
+}
+
+button{
+    margin-top:10px
+
+}
+

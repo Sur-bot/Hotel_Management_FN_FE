@@ -1,0 +1,293 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HotelManagement_FN.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HotelManagement_FN.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\Images\\LogoHotel2.png",
+      "PackagePath": "staticwebassets\\Images\\LogoHotel2.png"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\Images\\Room1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Room1.jpg"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\Images\\room2.jpg",
+      "PackagePath": "staticwebassets\\Images\\room2.jpg"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\Images\\room3.jpg",
+      "PackagePath": "staticwebassets\\Images\\room3.jpg"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\css\\room.css",
+      "PackagePath": "staticwebassets\\css\\room.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\css\\userinfo.css",
+      "PackagePath": "staticwebassets\\css\\userinfo.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\SOFTWARE ARCHITECTURE\\FINAL PROJECT\\HotelManagement_FN\\HotelManagement_FN\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HotelManagement_FN.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HotelManagement_FN.props",
+      "PackagePath": "build\\HotelManagement_FN.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelManagement_FN.props",
+      "PackagePath": "buildMultiTargeting\\HotelManagement_FN.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HotelManagement_FN.props",
+      "PackagePath": "buildTransitive\\HotelManagement_FN.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

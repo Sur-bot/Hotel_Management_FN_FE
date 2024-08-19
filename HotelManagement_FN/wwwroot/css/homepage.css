@@ -1,0 +1,27 @@
+﻿
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap:40px
+}
+.navbar-nav {
+    justify-content:center;
+    align-items:center
+}
+
+.slide {
+    display:flex; 
+    justify-content:center; 
+    align-items:center
+    
+}
+
+.d-flex {
+    margin-right: 20px
+}
+
+.nav-item{
+margin-left:10px
+}

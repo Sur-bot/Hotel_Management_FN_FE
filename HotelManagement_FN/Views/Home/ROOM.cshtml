@@ -1,0 +1,259 @@
+﻿@{
+    var username = TempData["Username"] != null ? TempData["Username"].ToString() : "Guest";
+    ViewBag.Title = "Room";
+}
+<link rel="stylesheet" href="~/css/room.css" />
+<link rel="stylesheet" href="~/css/homepage.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="text-center">
+    <img src="~/Images/LogoHotel2.png" alt="Logo" class="img-fluid" style="max-height: 150px; margin: 20px auto;">
+</div>
+
+<div class="page">
+<!-- Head bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-purple d-flex justify-content-center">
+    <a class="navbar-brand" href="#">Continental Hotel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ROOM</a>
+            </li>
+            @* <li class="nav-item">
+            <a class="nav-link" href="#">BOOKING</a>
+            </li> *@
+            <li class="nav-item">
+                <a class="nav-link" href="#">OFFERS</a>
+            </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <span class="navbar-text">
+                    WELCOME, @username!
+                </span>
+                    <button type="button" class="btn btn-success" style="margin-left:10px" onclick="window.location.href='@Url.Action("EditUserInfo", "Account")'">
+                        <i class="fas fa-user"></i>
+                    </button>
+
+            </li>
+            <li class="nav-item">
+                @if (username != "Guest")
+                {
+                    <button type="button" onclick="logout()" class="btn btn-danger">LOGOUT</button>
+
+                }
+                else
+                {
+                    <button type="button" onclick="login()" class="btn btn-success">LOGIN</button>
+                }
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+
+<div class="room_body">
+    <div class="phong">
+        <img class="imgroom" src="~/Images/Room1.jpg" alt="Phong 1 Hinh Anh">
+        <h3>Deluxe</h3>
+        <div style="display:flex">
+            <h3 class="price" data-price="100">100</h3>
+            <h3>$</h3>
+        </div>
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-room-type="Deluxe" data-price="100" onclick="startCalculation(this)">Book room</button>
+    </div>
+
+    <div class="phong">
+        <img class="imgroom" src="~/Images/Room2.jpg" alt="Phong 2 Hinh Anh">
+        <h3>Luxury</h3>
+        <div style="display:flex">
+            <h3 class="price" data-price="200">200</h3>
+            <h3>$</h3>
+        </div>
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-room-type="Luxury" data-price="200" onclick="startCalculation(this)">Book room</button>
+    </div>
+
+    <div class="phong">
+        <img class="imgroom" src="~/Images/Room3.jpg" alt="Phong 3 Hinh Anh">
+        <h3>Suite Case</h3>
+        <div style="display:flex">
+            <h3 class="price" data-price="500">500</h3>
+            <h3>$</h3>
+        </div>
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-room-type="Suite Case" data-price="500" onclick="startCalculation(this)">Book room</button>
+    </div>
+
+    <!-- Modal chung -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalTitle">Send Booking Request</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="stopCalculation()"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Room Type:</label>
+                            <input type="text" class="form-control" id="recipient-name" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Email:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Check In:</label>
+                            <input type="date" class="form-control" id="checkin" onchange="validateDates(),calculateTotal()">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Check Out:</label>
+                            <input type="date" class="form-control" id="checkout" onchange="validateDates(),calculateTotal()">
+                        </div>
+                        <div class="mb-3">
+                            <label for="amount" class="col-form-label">Amount:</label>
+                            <input type="number" class="form-control" min="1" max="3" value="1" id="amount" onchange="calculateTotal()">
+                        </div>
+                        <div class="mb-3">
+                            <h3>Total:</h3>
+                            <div style="display:flex">
+                                <h3 id="bill"></h3>
+                                <h3>$</h3>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="stopCalculation()">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function login() {
+        var link = document.createElement('a');
+        link.href = "@Url.Action("Login", "Account")";
+    /*<a class="nav-link" href = "@Url.Action("Login", "Account")" > LOGIN < /a>*/
+            link.click();
+    }
+    function logout() {
+        var link = document.createElement('a');
+        link.href = "@Url.Action("Logout", "Account")";
+    /*<a class="nav-link" href = "@Url.Action("Logout", "Account")" > LOGOUT < /a>*/
+            link.click();
+    }
+
+
+
+
+    const exampleModal = document.getElementById('exampleModal')
+    if (exampleModal) {
+        exampleModal.addEventListener('show.bs.modal', event => {
+            // Button that triggered the modal
+            const button = event.relatedTarget
+            // Extract info from data-bs-* attributes
+            // If necessary, you could initiate an Ajax request here
+            // and then do the updating in a callback.
+
+            // Update the modal's content.
+            const modalTitle = exampleModal.querySelector('.modal-title')
+            const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+            modalTitle.textContent = `Booking room`
+        })
+    }
+
+
+
+
+
+    let currentPrice = 0;
+
+    function startCalculation(button) {
+        const roomType = button.getAttribute('data-room-type');
+        currentPrice = parseFloat(button.getAttribute('data-price'));
+
+        document.getElementById('recipient-name').value = roomType;
+        document.getElementById('bill').textContent = currentPrice;
+
+        document.getElementById('amount').value = 1;
+    }
+
+    function calculateTotal() {
+        const amount = parseInt(document.getElementById('amount').value);
+        const checkinDate = new Date(document.getElementById('checkin').value);
+        const checkoutDate = new Date(document.getElementById('checkout').value);
+
+        // Tính số ngày lưu trú
+        const timeDifference = checkoutDate - checkinDate;
+        const days = timeDifference / (1000 * 3600 * 24); // Chuyển từ mili giây sang ngày
+
+        // Nếu số ngày nhỏ hơn 1 (ngày check-out trước ngày check-in), đặt giá trị là 0
+        const validDays = days > 0 ? days : 0;
+
+        // Tính tổng chi phí dựa trên số lượng phòng và số ngày lưu trú
+        const total = currentPrice * amount * validDays;
+
+        // Cập nhật tổng chi phí vào phần tử 'bill'
+        document.getElementById('bill').textContent = total;
+    }
+
+    function stopCalculation() {
+        document.getElementById('bill').textContent = "0";
+    }
+
+
+
+
+    // Đặt giá trị min cho ngày check-in là ngày hôm nay
+    document.getElementById('checkin').min = new Date().toISOString().split('T')[0];
+
+    function validateDates() {
+        const checkin = document.getElementById('checkin');
+        const checkout = document.getElementById('checkout');
+
+        const checkinDate = new Date(checkin.value);
+        const today = new Date(new Date().toISOString().split('T')[0]); // Lấy ngày hôm nay mà không có thời gian
+
+        // Đặt min cho check-out là ngày sau ngày check-in
+        if (checkinDate) {
+            checkout.min = checkin.value;
+        }
+
+        // Kiểm tra nếu check-in nhỏ hơn ngày hiện tại
+        if (checkinDate < today) {
+            alert("Check-in date cannot be in the past.");
+            checkin.value = ""; // Xóa giá trị không hợp lệ
+            stopCalculation()
+        }
+
+        // Kiểm tra nếu check-in lớn hơn check-out
+        if (checkout.value && checkinDate >= new Date(checkout.value)) {
+            alert("Check-in date must be before the check-out date.");
+            checkin.value = ""; // Xóa giá trị không hợp lệ
+            stopCalculation();
+        }
+    }
+
+</script>
+
+<div>
+
+</div>
